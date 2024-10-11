@@ -61,7 +61,7 @@ function(_swift_generate_cxx_header target header)
       -module-name "${ARG_MODULE_NAME}"
       -cxx-interoperability-mode=default
       -emit-clang-header-path ${header_path}
-      -parse-as-library
+      
     COMMENT
       "Generating '${header_path}'"
     COMMAND_EXPAND_LISTS)
